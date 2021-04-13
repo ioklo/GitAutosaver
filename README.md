@@ -1,11 +1,13 @@
 # GitAutosaver
 
-commit working tree contents into 'autosave/current_branch_name' branch
+commit working tree contents into `autosave/current_branch_name` branch
 you can run this program periodically using TaskScheduler(Windows), crontab, etc.
 
 ## Usage
 ```
 GitAutosaver [git repository path]
+ex) GitAutosaver MyRepo
+    GitAutosaver Z:\Proj\MyRepo
 ```
 
 ## Caution
